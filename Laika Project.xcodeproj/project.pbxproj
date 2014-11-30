@@ -21,6 +21,7 @@
 		06BD353B1A115934000B7228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BD351D1A115934000B7228 /* UIKit.framework */; };
 		06BD35431A115934000B7228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06BD35411A115934000B7228 /* InfoPlist.strings */; };
 		06BD35451A115934000B7228 /* Laika_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BD35441A115934000B7228 /* Laika_ProjectTests.m */; };
+		06BD354F1A11599F000B7228 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 06BD354E1A11599F000B7228 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		06BD35401A115934000B7228 /* Laika ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Laika ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		06BD35421A115934000B7228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06BD35441A115934000B7228 /* Laika_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laika_ProjectTests.m; sourceTree = "<group>"; };
+		06BD354E1A11599F000B7228 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		06BD35201A115934000B7228 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06BD354E1A11599F000B7228 /* images.jpeg */,
 				06BD35211A115934000B7228 /* Laika Project-Info.plist */,
 				06BD35221A115934000B7228 /* InfoPlist.strings */,
 				06BD35251A115934000B7228 /* main.m */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06BD35321A115934000B7228 /* Images.xcassets in Resources */,
+				06BD354F1A11599F000B7228 /* images.jpeg in Resources */,
 				06BD35241A115934000B7228 /* InfoPlist.strings in Resources */,
 				06BD352D1A115934000B7228 /* Main.storyboard in Resources */,
 			);

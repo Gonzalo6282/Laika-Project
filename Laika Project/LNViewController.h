@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface LNViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *yearsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *yearsTextField;
+@property (strong, nonatomic) IBOutlet UILabel *realYearsLabel;
+
+- (IBAction)convertogYearsButtonPressed:(UIButton *)sender;
+- (IBAction)convertToRealDogYearsButtonPresed:(UIButton *)sender;
 
 @end
